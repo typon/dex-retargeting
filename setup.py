@@ -73,6 +73,7 @@ classifiers = [
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
 
@@ -104,7 +105,7 @@ def setup_package():
         license="MIT",
         license_files=("LICENSE",),
         packages=packages,
-        python_requires=">=3.7,<3.11",
+        python_requires=">=3.7,<3.12",
         zip_safe=True,
         include_package_data=True,
         package_data={"dex_retargeting": ["configs/**"]},
